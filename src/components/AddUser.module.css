@@ -1,0 +1,29 @@
+.inputform {
+  height: auto;
+  justify-content: center;
+  background-color: white;
+}
+label {
+  font-weight: bold;
+  width: 130px;
+  float: left;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+input {
+  display: block;
+  width: 100%; /*Placing the label above this input*/
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+  border: 0.5px solid #ccc;
+}
+.forms {
+  /* display: block; */
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+label,
+input {
+  background-color: white;
+}
