@@ -9,7 +9,6 @@ function App() {
 
   const saveUserHandler = (user) => {
     setUserData((prevUsers) => {
-      console.log("THIS IS IN App.js: " + userData.userName);
       return [user, ...prevUsers];
     });
   };

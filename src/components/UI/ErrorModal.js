@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./ErrorModal.module.css";
-import Button from "./UI/Button";
+import Button from "./Button";
 
 function ErrorModal(props) {
   const [isClose, setIsClose] = useState(false);
